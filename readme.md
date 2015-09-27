@@ -6,13 +6,13 @@ Search CKAN and automatically traverse page list.
 
 ## API
 
-### `searcher = figshare(opts)`
+### `searcher = ckan(opts)`
 
 Options:
 
-`uri`: can be changed if you have your own deployment. default 'http://api.figshare.com'
+`uri`: can be changed if you have your own deployment. default 'http://datahub.io/api'
 
-`version`: defaults to 1.0, there is only one version of figshare search
+`version`: defaults to 3
 
 `timeout`: not implemented
 
