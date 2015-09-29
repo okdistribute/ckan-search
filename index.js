@@ -9,6 +9,7 @@ function CKAN (opts) {
   if (!opts) return new CKAN({})
 
   this.version = opts.version || '3'
+  this.name = 'ckan-search'
   this.start = opts.start || 0
   this.rows = opts.rows || 50
   this.uri = (opts.uri || 'http://datahub.io/api/') + this.version + '/action/package_search'
